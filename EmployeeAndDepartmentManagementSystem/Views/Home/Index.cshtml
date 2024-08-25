@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .background-image {
+        background-image: url(https://www.jobspikr.com/wp-content/uploads/2022/08/shutterstock_1854397429-1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 70vh; 
+        width:100wh;
+        color:whitesmoke; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight:bold;
+        text-align: center;
+        font-family: Arial, sans-serif;
+       
+    }
+</style>
+
+<div class="background-image text-center mt-5">
+    <div>
+        <h1 class="display-4">Welcome To Employee Management System</h1>
+        <p>Manage your employees efficiently and effectively.</p>
+        <a class="btn btn-primary" asp-controller="Employee" asp-action="Index">View Employees</a>
+    </div>
+</div>
